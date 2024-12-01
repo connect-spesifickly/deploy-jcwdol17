@@ -21,7 +21,7 @@ export default function Lab() {
           <div className="flex justify-end" id="item">
             <div className="shadow-[0_0_10px_#38186B] absolute bg-[rgba(96,78,119,0.6)] w-[280px] h-auto left-0 rounded-2xl backdrop-filter backdrop-blur-xs">
               <p className="ml-1">
-                In this project, i try to replicate Gojek website to hone my
+                In this project, i try to replicate Gojek website to increase my
                 skill in using CSS and HTML. I enjoy it very much.
                 <br />
                 <br />
