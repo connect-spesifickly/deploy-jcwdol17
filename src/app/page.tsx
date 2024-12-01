@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/page";
 import About from "@/components/about/page";
 import Lab from "@/components/lab/page";
 import Footer from "@/components/footer/page";
+import Home2 from "@/components/layout";
 export default function Home() {
   return (
     <div id="home">
@@ -15,6 +16,7 @@ export default function Home() {
           <Lab />
         </div>
         <Footer />
+        <Home2 />
       </div>
     </div>
   );
