@@ -19,7 +19,7 @@ export default function Lab() {
             Slicing Gojek Web Project
           </h1>
           <div className="flex justify-end" id="item">
-            <div className="shadow-[0_0_10px_#38186B] absolute bg-[rgba(96,78,119,0.6)] w-[280px] h-auto left-0 rounded-2xl backdrop-filter backdrop-blur-xs">
+            <div className="shadow-[0_0_10px_#38186B] absolute bg-[rgba(96,78,119,0.8)] w-[280px] h-auto left-0 rounded-2xl backdrop-filter backdrop-blur-xs">
               <p className="ml-1">
                 In this project, i try to replicate Gojek website to increase my
                 skill in using CSS and HTML. I enjoy it very much.
