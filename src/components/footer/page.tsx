@@ -11,7 +11,7 @@ export default function Footer() {
           Have project in mind? Let`s Contact
         </p>
       </div>
-      <div className="grid grid-cols-2 justify-between text-white font-preahvihear m-0 mt-[25px] mx-auto sm:w-[560px]">
+      <div className="grid grid-cols-2 justify-between text-white font-preahvihear m-0 mt-[25px] mx-auto sm:w-[600px]">
         <p className="ml-1 mx-auto">
           My WhatsApp : <b>+62895339427085</b>
         </p>
