@@ -17,7 +17,7 @@ export default function About() {
           />
         </div>
         <h1 className="text-3xl font-bold w-[300px] md:w-auto lg:w-auto text-[#ffffff] font-preahvihear">
-          Hello! My Name Fajar, <br />
+          Hello! My name Fajar, <br />
           I`m a Fullstack Developer
         </h1>
       </div>

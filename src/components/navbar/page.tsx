@@ -14,7 +14,7 @@ export default function Navbar() {
           className="rounded-full hover:bg-[rgba(210,181,245,0.1)]"
         />
       </a>
-      <div className="flex justify-between  w-1/3 vw  text-white font-plus-jakarta-sans hover:pointer-events-auto gap-[5px]">
+      <div className="flex justify-between  w-1/3 vw  text-white font-plus-jakarta-sans hover:pointer-events-auto gap-[7px]">
         <a href="#home">
           <p className="jakarta hover:underline">Home</p>
         </a>
