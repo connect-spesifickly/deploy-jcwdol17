@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        preahvihear: ["Preahvihear", "sans-serif"],
+        plusJakartaSans: ["Plus Jakarta Sans", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],
