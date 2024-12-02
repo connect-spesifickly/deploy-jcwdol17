@@ -65,22 +65,19 @@ export default function Lab() {
                 technology skills to finish this project.
                 <br />
                 <br />
-                You can click this `
-                <b>
-                  <a href="https://porto-1a.vercel.app/">Vercel</a>
-                </b>
-                ` to look it. Or this{" "}
+                I`m sorry, but this project can`t be deployed on Vercel, because
+                i use json-server, just can in `{" "}
                 <b>
                   `
-                  <a href="https://github.com/connect-spesifickly/porto-1a">
+                  <a href="https://github.com/connect-spesifickly/porto-Todo-list/tree/main/ReactMaterial/todo-list">
                     Github
                   </a>
                 </b>{" "}
-                ` to see my code. You can use smartphone to look it, Oke
+                `
               </p>
             </div>
             <Image
-              src="/images/gojek-porto.png"
+              src="/images/todoList.png"
               alt=""
               width={150}
               height={20}
