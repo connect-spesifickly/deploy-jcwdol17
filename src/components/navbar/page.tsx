@@ -24,17 +24,17 @@ export default function Navbar() {
             Muhammad Fajar Sidiq
           </p>
         </a>
-        <div className="flex justify-between  w-[33vw]  text-white font-mono text-[20px] font-bold hover:pointer-events-auto gap-[5px] min-w-[150px]">
+        <div className="flex justify-between  w-[33vw]  text-white font-mono text-[20px] font-bold gap-[5px] min-w-[150px]">
           <a onClick={() => scrollToSection("home")}>
-            <p className="  hover:text-purple-400">Home</p>
+            <p className="  hover:text-purple-400 cursor-pointer ">Home</p>
           </a>
           <a onClick={() => scrollToSection("about")}>
             {" "}
-            <p className="  hover:text-purple-400">About</p>
+            <p className="  hover:text-purple-400 cursor-pointer ">About</p>
           </a>
           <a onClick={() => scrollToSection("lab")}>
             {" "}
-            <p className="  hover:text-purple-400">Lab</p>
+            <p className="  hover:text-purple-400 cursor-pointer ">Lab</p>
           </a>
         </div>
       </div>
