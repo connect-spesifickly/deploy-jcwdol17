@@ -39,12 +39,14 @@ export function Project2() {
               />
             ))}
           </div>
-          <Button
-            className=" bg-[#3658B9] text-white hover:text-white hover:bg-[#0437c2] w-[125px] h-[45px] text-[20px] font-bold mb-[20px] absolute bottom-2 shadow-[0_0_5px_#3658B9]
+          <a href="https://github.com/connect-spesifickly/porto-Todo-list/tree/main/ReactMaterial/todo-list">
+            <Button
+              className=" bg-[#3658B9] text-white hover:text-white hover:bg-[#0437c2] w-[125px] h-[45px] text-[20px] font-bold mb-[20px] absolute bottom-2 shadow-[0_0_5px_#3658B9]
           hover:shadow-[0_0_10px_#3658B9] hover:bottom-2.5 transition-shadow"
-          >
-            See Project
-          </Button>
+            >
+              See Project
+            </Button>
+          </a>
         </div>
         <div className=" relative w-60vw lg:flex imgContainer">
           <div className="">
