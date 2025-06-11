@@ -2,28 +2,28 @@ import * as React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { useState } from "react";
-export function Project1() {
+export function Project4() {
   const [GoJekToolsImg] = useState<string[]>([
-    "html5",
-    "css3",
-    "javaScript2",
-    "react3",
-    "vsCode",
-    "git2",
-    "next4",
-    "gitHub3",
-    "ts2",
-    "vercel4",
+    "html5", //
+    "ts2", //
+    "react3", //
+    "git2", //
+    "next4", //
+    "gitHub3", //
+    "tailwind", //
+    "supabase", //
+    "postgresql",
+    "nodejs6",
   ]);
   return (
     <div>
-      <div className="flex lg:flex-row md:flex-col flex-col max-w-[1300px] bg-white lg:mx-[30px] mx-[30px] rounded-lg shadow-[0_0_10px_#ffffff] hover:shadow-[0_0_20px_#ffffff] hover:scale-105 transition-transform projectsContainer">
-        <div className="flex flex-col lg:w-[40vw] w-auto p-[1.2rem] pb-[11px] mx-[10px] relative">
-          <h1 className="font-spaceMono text-[32px] font-bold mt-[11px]  pb-[8px]">
-            Slicing Gojek Web (2024)
+      <div className="flex lg:flex-row-reverse md:flex-col flex-col max-w-[1300px] bg-white lg:mx-[30px] mx-[30px] rounded-lg shadow-[0_0_10px_#ffffff] hover:shadow-[0_0_20px_#ffffff] hover:scale-105 transition-transform projectsContainer">
+        <div className="md:border-l-2 flex flex-col lg:w-[40vw] w-auto p-[1.2rem] pb-[11px] mx-[10px] relative">
+          <h1 className="font-spaceMono text-[32px] font-bold mt-[11px] pb-[8px]">
+            Job Board Platform (2025)
           </h1>
           <p className="font-roboto text-[20px] pb-[18px] text-justify ">
-            GoJek Home Page that show how big Gojek Company
+            Platform where we can search, apply, and post some jobs.
           </p>
 
           <div className="flex flex-wrap w-auto gap-[7.5px] mb-[75px]">
@@ -39,7 +39,7 @@ export function Project1() {
               />
             ))}
           </div>
-          <a href="https://porto-1a.vercel.app/">
+          <a href="https://workase.vercel.app/">
             <Button
               className=" bg-[#3658B9] text-white hover:text-white hover:bg-[#0437c2] w-[125px] h-[45px] text-[20px] font-bold mb-[20px] absolute bottom-2 shadow-[0_0_5px_#3658B9]
           hover:shadow-[0_0_10px_#3658B9] hover:bottom-2.5 transition-shadow"
@@ -48,49 +48,51 @@ export function Project1() {
             </Button>
           </a>
         </div>
-        <div className="text-justify relative w-60vw lg:flex imgContainer">
+        <div className=" text-justify relative w-60vw lg:flex imgContainer">
           <div className="">
             <Image
               width={300}
               height={300}
-              src={`/images/gojek-porto2.png`}
+              src={`/images/workase-porto.png`}
               alt=""
-              className="imgProject w-[100vw] h-full lg:rounded-r-lg"
+              className="imgProject w-[100vw] h-full lg:rounded-l-lg"
             />
           </div>
           <div
-            className="description inset1 lg:absolute 
-          lg:opacity-0 transition-opacity p-[2.4rem] lg:rounded-r-lg"
+            className="description inset2 lg:absolute 
+          lg:opacity-0 transition-opacity px-[2.4rem] py-[2.1rem] lg:rounded-l-lg"
           >
             <h1 className="font-spaceMono text-[28px] font-bold py-[10px]">
               Description & Goals
             </h1>
             <div className=" py-[7px]">
               <p className="font-roboto text-[18px]">
-                <b>Situation :</b> Go Jek`s main page has a response that is too
-                rigid and does not provide a flexible response to changes in the
-                appearance of the hero section.
+                <b>Situation :</b> Job seekers and companies needed an efficient
+                platform to connect, search for jobs, and post opportunities in
+                a streamlined and user-friendly way.
               </p>
             </div>
             <div className=" py-[7px]">
               <p className="font-roboto text-[18px]">
-                <b>A Task :</b> To make better display of Go Jek`s main page. I
-                try to slice it and improve hero section with a display that
-                provides more flexibility whitout too rigid.
+                <b>A Task :</b> I was responsible for developing core features
+                of the platform and ensuring a seamless user experience for both
+                job seekers and companies.
               </p>
             </div>
             <div className=" py-[7px]">
               <p className="font-roboto text-[18px]">
-                <b>Action :</b> Using <b>Next JS</b> framework, <b>React</b>{" "}
-                library, and <b>VS Code</b> code editor. I try to slice the web{" "}
-                <b>HTML</b> and improve the <b>CSS</b>. To store code i use{" "}
-                <b>Git</b> and <b>GitHub</b> and deploy it to <b>Vercel</b>
+                <b>Action :</b> I collaborated closely with the team to design
+                and build the platform using modern web technologies. We
+                integrated features such as secure authentication, job search
+                functionality, and interactive dashboards to enhance usability
+                and engagement.
               </p>
             </div>
             <div className=" py-[7px]">
               <p className="font-roboto text-[18px]">
-                <b>Result :</b> After slicing and improving the hero section, Go
-                Jek`s main page has a more flexiblility.
+                <b>Result :</b> The platform was successfully developed and
+                received a score of 85.2 out of 100, reflecting its
+                effectiveness and usability.
               </p>
             </div>
           </div>

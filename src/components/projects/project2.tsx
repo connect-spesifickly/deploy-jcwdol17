@@ -19,10 +19,10 @@ export function Project2() {
     <div>
       <div className="flex lg:flex-row-reverse md:flex-col flex-col max-w-[1300px] bg-white lg:mx-[30px] mx-[30px] rounded-lg shadow-[0_0_10px_#ffffff] hover:shadow-[0_0_20px_#ffffff] hover:scale-105 transition-transform projectsContainer">
         <div className="flex flex-col lg:w-[40vw] w-auto p-[1.2rem] pb-[11px] mx-[10px] relative">
-          <h1 className="font-spaceMono text-[32px] font-bold mt-[11px] mb-[8px]">
-            To-Do List Project
+          <h1 className="font-spaceMono text-[32px] font-bold mt-[11px] pb-[8px]">
+            To-Do List Project (2024)
           </h1>
-          <p className="font-roboto text-[20px] py-[7px]">
+          <p className="font-roboto text-[20px] pb-[18px] text-justify ">
             Todo list that can save, check, remove, and edit your todo list.
           </p>
 
@@ -48,7 +48,7 @@ export function Project2() {
             </Button>
           </a>
         </div>
-        <div className=" relative w-60vw lg:flex imgContainer">
+        <div className=" text-justify relative w-60vw lg:flex imgContainer">
           <div className="">
             <Image
               width={300}
@@ -60,7 +60,7 @@ export function Project2() {
           </div>
           <div
             className="description inset2 lg:absolute 
-          lg:opacity-0 transition-opacity p-[2.4rem] lg:rounded-l-lg"
+          lg:opacity-0 transition-opacity px-[2.4rem] py-[1.8rem] lg:rounded-l-lg"
           >
             <h1 className="font-spaceMono text-[28px] font-bold py-[10px]">
               Description & Goals

@@ -20,6 +20,7 @@ export default function Navbar() {
             height={40}
             className="rounded-full border-[#ffffff] border-2 hover:shadow-[0_0_10px_#ffffff] transition-shadow"
           />
+
           <p className="font-mono text-[28px] m-[20px] font-bold lg:block md:block hidden text-white">
             Muhammad Fajar Sidiq
           </p>

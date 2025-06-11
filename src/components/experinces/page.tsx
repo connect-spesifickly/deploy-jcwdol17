@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Experience1 } from "./experience1";
-import { Experience2 } from "./experience2";
 
 export function Experiences() {
   return (
@@ -15,9 +14,6 @@ export function Experiences() {
           </h1>
           <div className="lg:mb-[100px] md:mb-[90px] mb-[65px]  rounded-lg py-1 max-w-[1200px] px-[33px] ">
             <Experience1 />
-          </div>
-          <div className="lg:mb-[100px] md:mb-[90px] mb-[65px]  rounded-lg py-1 max-w-[1200px] px-[33px]  ">
-            <Experience2 />
           </div>
         </div>
       </div>

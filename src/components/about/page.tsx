@@ -28,19 +28,20 @@ export default function About() {
           </h2>
         </div>
         <div className="flex text-white lg:flex-row md:flex-row flex-col gap-[30px]">
-          <div className="flex-col">
+          <div className="flex-col text-justify">
             <h2 className="p-[10px] text-center font-mono text-[24px] font-bold">
               Get to know me !
             </h2>
             <p className="p-[10px]">
-              My main skills are about JavaScript (i can use TypeScript too),
-              React (exacty, i use Next js), HTML and CSS (actually i usually
-              use JSX and Tailwind).
+              I usually work using Agile and Scrum methodologies. My main skills
+              include JavaScript (and TypeScript), React (specifically with
+              Next.js), HTML and CSS (typically using TSX and Tailwind CSS), as
+              well as Node.js (with Express and TypeScript).
             </p>
             <p className="p-[10px]">
-              My principles of work are: On Time, Professional, Communicative,
-              Always learn and growth, Want to Understand, go deep into field of
-              work
+              My work principles are: being punctual, professional,
+              communicative, always learning and growing, eager to understand,
+              and deeply committed to my field of work.
             </p>
             <div className="my-[40px] flex justify-between mx-[4px]">
               {" "}
@@ -57,21 +58,22 @@ export default function About() {
               ))}
             </div>
           </div>
-          <div className="flex-col">
+          <div className="flex-col text-justify">
             <h2 className="p-[10px] text-center font-mono text-[24px] font-bold">
               My skills around
             </h2>
             <p className="p-[10px]">
-              Front-End Skills: Technologies like HTML, CSS, JavaScript or
-              TypeScript, React, Next js and Tailwind.
+              Front-End Skills: Technologies like HTML5, CSS3, JavaScript (ES6+)
+              or TypeScript, React, Next js and Tailwind CSS.
             </p>
             <p className="p-[10px]">
-              Back-End Skills: Frameworks and languages like Node.js, and other
-              skills still learning like Python and Express.
+              Back-End Skills: Frameworks and languages like Node.js, Express.js
+              and other skills like Prisma ORM, PostgreSQL, RESTful APIs, also
+              other tools like Supabase or Postman.
             </p>
             <p className="p-[10px]">
-              DevOps & Tools: Tools used in development (that i still learn),
-              such as Docker, Git, Jenkins, AWS, or CI/CD solutions.
+              DevOps & Tools: Tools used in development, such as Docker, Git adn
+              GitHub, Vercel or CI/CD solutions.
             </p>
             <Button
               className="bg-blue-50 text-black hover:text-white hover:bg-[#6F667F] w-[125px] h-[45px] text-[20px] font-bold m-[10px]"

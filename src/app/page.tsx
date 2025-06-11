@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
-import Navbar from "@/components/navbar/page";
+
 import Footer from "@/components/footer/page";
 import Hero from "@/components/hero/page";
 import About from "@/components/about/page";
 import Projects from "@/components/projects/page";
 import { Experiences } from "@/components/experinces/page";
 import { Testimony } from "@/components/testimony/page";
+import Navbar from "@/components/navbar/page";
 export default function Home() {
   return (
     <div id="home">
