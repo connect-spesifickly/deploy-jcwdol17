@@ -21,11 +21,11 @@ export default function Navbar() {
             className="rounded-full border-[#ffffff] border-2 hover:shadow-[0_0_10px_#ffffff] transition-shadow"
           />
 
-          <p className="font-mono text-[28px] m-[20px] font-bold lg:block md:block hidden text-white">
+          <p className="font-mono text-[24px] m-[20px] font-bold lg:block md:block hidden text-white">
             Muhammad Fajar Sidiq
           </p>
         </a>
-        <div className="flex justify-between  w-[33vw]  text-white font-mono text-[20px] font-bold gap-[5px] min-w-[150px]">
+        <div className="flex justify-between  w-[33vw]  text-white font-mono text-[19px] font-bold gap-[5px] min-w-[150px]">
           <a onClick={() => scrollToSection("home")}>
             <p className="  hover:text-purple-400 cursor-pointer ">Home</p>
           </a>

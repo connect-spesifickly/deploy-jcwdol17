@@ -7,7 +7,7 @@ export function Experiences() {
       <div className=" h-auto flex justify-center ">
         <div className="text-white ">
           <h1
-            className="text-[2.91rem] font-bold w-auto lg:w-auto text-[#dce0de] font-mono mt-[-20px] lg:my-[50px]
+            className="text-[2.3rem] font-bold w-auto lg:w-auto text-[#dce0de] font-mono mt-[-20px] lg:my-[50px]
             md:my-[42.5px] my-[25px] text-center"
           >
             Experiences

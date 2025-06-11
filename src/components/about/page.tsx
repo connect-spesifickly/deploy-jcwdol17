@@ -3,6 +3,10 @@ import * as React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { useState } from "react";
+import dynamic from "next/dynamic";
+
+const ScrollButton = dynamic(() => import("./ScrollButton"), { ssr: false });
+
 export default function About() {
   const [ImageName] = useState<string[]>([
     "OnTime3",
@@ -12,19 +16,17 @@ export default function About() {
     "WantToUnderstand2",
     "DeepField",
   ]);
-  function scrollToSection(id: string) {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  }
+
   return (
     <div className="md:h-screen lg:h-screen h-auto flex justify-center pt-[160px] lg:pt-[175px]">
       <div className="max-w-[1215px] mx-auto lg:px-[33px] px-[13px]">
         <div className="text-white text-center">
-          <h1 className="text-[2.91rem] font-bold w-auto lg:w-auto text-[#ffffff] font-mono text-center mt-[-20px] my-[50px]">
+          <h1 className="text-[2.3rem] font-bold w-auto lg:w-auto text-[#ffffff] font-mono text-center mt-[-20px] my-[50px]">
             About Me
           </h1>
           <h2 className="text-auto text-[20px] font-extralight italic w-auto text-[#ffffff] font-roboto flex flex-col justify-rounded items-center text-center my-[50px]">
             I Interest in web development and Developing web application for
-            around 5 months
+            around 1 year
           </h2>
         </div>
         <div className="flex text-white lg:flex-row md:flex-row flex-col gap-[30px]">
@@ -44,9 +46,7 @@ export default function About() {
               and deeply committed to my field of work.
             </p>
             <div className="my-[40px] flex justify-between mx-[4px]">
-              {" "}
               {ImageName.map((item, key) => (
-                // eslint-disable-next-line react/jsx-key
                 <Image
                   key={key}
                   width={300}
@@ -75,13 +75,7 @@ export default function About() {
               DevOps & Tools: Tools used in development, such as Docker, Git adn
               GitHub, Vercel or CI/CD solutions.
             </p>
-            <Button
-              className="bg-blue-50 text-black hover:text-white hover:bg-[#6F667F] w-[125px] h-[45px] text-[20px] font-bold m-[10px]"
-              // eslint-disable-next-line react/no-string-refs
-              onClick={() => scrollToSection("lab")}
-            >
-              Projects
-            </Button>
+            <ScrollButton id="lab" />
           </div>
         </div>
       </div>

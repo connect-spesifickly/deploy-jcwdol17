@@ -5,14 +5,14 @@ export default function Footer() {
     <div className="">
       <div className="mt-[50px]">
         <div className=" h-auto flex justify-center items-center">
-          <div className="text-white h-[88vh]">
+          <div className="text-white h-[100vh] flex flex-col justify-center items-center">
             <h1
-              className="text-[2.91rem] font-bold w-auto lg:w-auto text-[#dce0de] font-poppins lg:my-[5px]
+              className="text-[2rem] font-bold w-auto lg:w-auto text-[#dce0de] font-poppins lg:my-[5px]
             md:my-[2.5px] text-center my-[2.5px]"
             >
-              Contact
+              Thank You For Your Attention
             </h1>
-            <p className="flex justify-center text-white font-preahvihear lg:text-[24px] md:text-[24px] text-[23px] font-extralight">
+            <p className="flex justify-center text-white font-preahvihear lg:text-[20px] md:text-[20px] text-[18px] font-extralight">
               Have project in mind? Let`s Contact
             </p>
             <div className="max-w-[1200px] rounded-lg ">
@@ -21,13 +21,14 @@ export default function Footer() {
                   className="flex flex-row justify-between text-[15px] lg:text-[24px] md:text-[24px]  font-bold mx-auto items-center  lg:my-[39px]
             md:my-[29px] my-[19px] gap-[10px]"
                 >
-                  <div className=" p-[33px] bg-[#12071F] w-[100vw]">
-                    <div className="flex flex-row justify-between items-center my-[12px]">
-                      <h2 className="font-preahvihear text-[16px]">
+                  <div className=" bg-[#12071F] w-full px-4">
+                    <div className="flex flex-row justify-between items-center my-[2px] max-w-[600px] gap-8">
+                      <h2 className="font-preahvihear text-[18px]">
                         My Email : <b>Altitude.Altair@gmail.com</b>
                       </h2>
+                      <div className="h-full border border-r border-white "></div>
                       <a
-                        href="https://www.linkedin.com/in/muhammad-fajar-sidiq-56b879258/?originalSubdomain=id"
+                        href="https://www.linkedin.com/in/muhammad-fajar-sidiq-916879258/"
                         className=" transition-transform"
                       >
                         <Image
@@ -39,43 +40,6 @@ export default function Footer() {
                         />
                       </a>
                     </div>
-                    <form
-                      action=""
-                      className=" flex flex-col  text-black rounded-lg gap-1 bg-white p-[33px]"
-                    >
-                      <label htmlFor="name">Name :</label>
-                      <input
-                        className="border-[#1A0A2E] border-2 rounded-lg"
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                      />
-
-                      <label htmlFor="email">Email :</label>
-                      <input
-                        className="border-[#1A0A2E] border-2 rounded-lg"
-                        type="text"
-                        id="email"
-                        name="email"
-                        required
-                      />
-
-                      <label htmlFor="message">Message :</label>
-                      <textarea
-                        className="border-[#1A0A2E] border-2 rounded-lg"
-                        name="message"
-                        id="message"
-                        required
-                      ></textarea>
-
-                      <button
-                        className="border-[#1A0A2E] border-2 rounded-lg hover:text-white hover:bg-[#1A0A2E] transition-all"
-                        type="submit"
-                      >
-                        Send Message
-                      </button>
-                    </form>
                   </div>
                 </div>
               </div>
